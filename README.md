@@ -1,6 +1,6 @@
 # Information Retrieval --- Amazon Review Access and Recommendation
 
-## Project Description
+### Project Description
 
 Team members: Guancheng Yao, Bowen Tang, Yuchen Shen
 
@@ -27,7 +27,7 @@ The function of our Review Access and Recommendation system can be seperated int
   
 Following the steps above, the system can retrieve required products, reviews and recommended reviews.
 
-## System Set Up
+### System Set Up
 
 See requirement.txt for python library requirement.
 
@@ -42,3 +42,12 @@ Then products and reviews will be retrieved.
 
 For review recommendation, run 'lda.py' in terminal.
 Then type in the saerch term, the program will return words in the same topic. Finally, use 'Main.py' again to retrieve recommended reviews.
+
+### Website Demo
+
+We create a static HTML website demo for our project. For the purpose of the demonstration, this website shows one case of how you can use this search engine to get the review you care about.
+There are 12 products listed on the home page, and by selecting each one of them you will be directed to the search page. In the search page, by typing the review you are looking for and then the search engine finds the related reviews for you. At the bottom of the review page, we provide recommended reviews that belong to the same topic you are searching for.
+
+How to use:
+In 'Website Demo' folder, 'index.html' is the start file.
+Because this is a static html, you can import it to any IDE you prefer to use, or just double-click the 'index.html' directly. It will show the page in your browser.
